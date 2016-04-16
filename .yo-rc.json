@@ -1,0 +1,34 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.0.0",
+    "baseName": "flotte",
+    "packageName": "com.zuehlke.camp.flotte",
+    "packageFolder": "com/zuehlke/camp/flotte",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "jwtSecretKey": "af6cb28ca36bf499cbff80771561c84b45fd5fed",
+    "useSass": true,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "de",
+      "es"
+    ]
+  }
+}

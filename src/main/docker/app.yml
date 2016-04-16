@@ -1,0 +1,16 @@
+version: '2'
+services:
+    flotte-app:
+        image: flotte
+        external_links:
+            - flotte-mongodb:mongodb
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod
+            - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017
+            - SPRING_DATA_MONGODB_DATABASE=flotte
+        ports:
+            - 8080:8080
+    flotte-mongodb:
+        extends:
+            file: mongodb.yml
+            service: flotte-mongodb
