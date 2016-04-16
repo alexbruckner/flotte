@@ -1,0 +1,26 @@
+{
+    "flotteApp": {
+        "locationUpdate" : {
+            "home": {
+                "title": "LocationUpdates",
+                "createLabel": "LocationUpdate erstellen",
+                "createOrEditLabel": "LocationUpdate erstellen oder bearbeiten",
+                "search": "Suche nach LocationUpdate"
+            },
+            "created": "LocationUpdate erstellt mit ID {{ param }}",
+            "updated": "LocationUpdate aktualisiert mit ID {{ param }}",
+            "deleted": "LocationUpdate gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll LocationUpdate {{ id }} wirklich dauerhaft gejöscht werden?"
+            },
+            "detail": {
+                "title": "LocationUpdate"
+            },
+            "source": "Source",
+            "time": "Time",
+            "longitude": "Longitude",
+            "lattitude": "Lattitude",
+            "comment": "Comment"
+        }
+    }
+}

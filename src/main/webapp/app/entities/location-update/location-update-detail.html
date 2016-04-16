@@ -1,0 +1,38 @@
+
+<div>
+    <h2><span translate="flotteApp.locationUpdate.detail.title">LocationUpdate</span> {{vm.locationUpdate.id}}</h2>
+    <hr>
+    <dl class="dl-horizontal">
+        <dt><span translate="flotteApp.locationUpdate.source">Source</dt></dt>
+        <dd>
+            <span>{{vm.locationUpdate.source}}<span>
+        </dd>
+        <hr>
+        <dt><span translate="flotteApp.locationUpdate.time">Time</dt></dt>
+        <dd>
+            <span>{{vm.locationUpdate.time | date:'medium'}}</span>
+        </dd>
+        <hr>
+        <dt><span translate="flotteApp.locationUpdate.longitude">Longitude</dt></dt>
+        <dd>
+            <span>{{vm.locationUpdate.longitude}}<span>
+        </dd>
+        <hr>
+        <dt><span translate="flotteApp.locationUpdate.lattitude">Lattitude</dt></dt>
+        <dd>
+            <span>{{vm.locationUpdate.lattitude}}<span>
+        </dd>
+        <hr>
+        <dt><span translate="flotteApp.locationUpdate.comment">Comment</dt></dt>
+        <dd>
+            <span>{{vm.locationUpdate.comment}}<span>
+        </dd>
+        <hr>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
